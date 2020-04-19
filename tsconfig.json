@@ -2,20 +2,12 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "lib": [
-      "es7",
-    ],
+    "lib": ["esnext"],
     "declaration": true,
-    "rootDir": "src",
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
+    "allowSyntheticDefaultImports": true
   },
-  "exclude": [
-    "./node_modules",
-    "./dist"
-  ]
+  "include": ["./src"]
 }
